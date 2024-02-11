@@ -12,7 +12,7 @@ export default [
     uid: nanoid(),
     title: "Product 1",
     image:
-      "https://images.unsplash.com/photo-1707464568815-7fb6b6ea3e2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8",
+      "https://plus.unsplash.com/premium_photo-1696839602317-5560d5273e25?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis totam excepturi nesciunt. Nostrum odio voluptatum ea, accusantium adipisci quibusdam tenetur! Illo, id illum neque earum facilis distinctio reiciendis, soluta rem deleniti, expedita labore error? Veritatis facilis facere ex vel officia?",
     dataCount: 0,

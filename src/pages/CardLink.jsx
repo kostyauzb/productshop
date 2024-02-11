@@ -14,7 +14,7 @@ function CardLink({datas}) {
       {foundData ? (
         <>
           <figure>
-            <img className="" src={foundData.image} alt="Album" />
+            <img className="w-[450px] h-[300px]" src={foundData.image} alt="Album" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">{foundData.title}</h2>

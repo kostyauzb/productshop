@@ -1,8 +1,9 @@
-import {useDispatch} from "react-redux"
+import {useDispatch, useSelector} from "react-redux"
 import {addData} from "../redux/features/productsSlice"
 import {id} from "../../data"
 import {nanoid} from "@reduxjs/toolkit"
 import {useNavigate} from "react-router-dom"
+import {useEffect} from "react"
 
 function AddCard() {
   const dispatch = useDispatch()

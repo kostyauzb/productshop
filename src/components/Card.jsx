@@ -5,14 +5,10 @@ import {NavLink} from "react-router-dom"
 function Card({data}) {
   const dispatch = useDispatch()
   return (
-    <div className="card max-w-[290px] w-full mb-2 bg-base-100 shadow-xl">
+    <div className="card max-w-[290px] w-full max-h-[400px] h-full mb-2 bg-base-100 shadow-xl">
       <figure>
         <NavLink to={data.id}>
-          <img
-            className="max-w-full max-h-full h-[200px]"
-            src={data.image}
-            alt="Shoes"
-          />
+          <img src={data.image} alt="Shoes" />
         </NavLink>
       </figure>
       <div className="card-body">
